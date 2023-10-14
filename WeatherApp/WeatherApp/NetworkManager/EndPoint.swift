@@ -45,7 +45,7 @@ enum Endpoint {
     
     var url: URL? {
         guard var urlComponents = URLComponents(string: urlString) else { return  nil}
-        let apiKey = "98ee16d7fa3d44b4996110852231809"
+        let apiKey = "YOUR KEY HERE"
         switch self {
         case .currentWeather(let latQuery):
             urlComponents.queryItems = [
